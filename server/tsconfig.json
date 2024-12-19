@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                // Compile to ES6 JavaScript
+    "module": "CommonJS",           // Use CommonJS modules
+    "rootDir": "./src",             // Source directory
+    "outDir": "./dist",             // Output directory
+    "strict": true,                 // Enable strict mode
+    "esModuleInterop": true,        // Ensure compatibility with ES modules
+    "skipLibCheck": true            // Skip library type checks
+  },
+  "include": ["src/**/*"],          // Include all files in 'src'
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist
+}
